@@ -1,0 +1,636 @@
+/******* RESET ********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******* GENERAL ********/
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******* GRID ********/
+
+#wrapper {
+    display: grid;
+    grid-template-areas:
+        "aside"
+        "main"
+        "footer";
+    grid-template-rows: auto auto auto;
+    background-color: black;
+
+}
+
+#wrapperCompra {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/******* HEADER ********/
+
+header {
+    background-color: #969696;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+#contHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkLogo {
+    color: white;
+    display: inline-block;
+    height: 80px;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+}
+
+h1 {
+    font-size: 2.3rem;
+    display: inline;
+}
+
+header div {
+    text-align: right;
+}
+
+#imgCarrito {
+    width: 30px;
+    height: 30px;
+}
+
+#contadorCarrito {
+    font-size: 2rem;
+}
+
+#offcanvasRight {
+    color: black;
+
+}
+
+.offcanvas-title {
+    font-size: 2.5rem;
+    margin-left: 80px;
+}
+
+.productoEnCarrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    column-gap: 5px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.boton-eliminar {
+    width: 30px;
+    height: 30px;
+
+}
+
+.offcanvas-body {
+    text-align: center;
+}
+
+.Total {
+    font-size: 2rem;
+}
+
+.btn-finalizar {
+    width: auto;
+    color: white;
+    background-color: rgb(82, 82, 82);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.imgProdCarrito {
+    width: 100px;
+    height: 100px;
+}
+
+#contHeaderFinal {
+    display: flex;
+    justify-content: center;
+}
+
+/******* ASIDE ********/
+
+aside {
+    grid-area: aside;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/******* MAIN ********/
+
+main {
+    grid-area: main;
+}
+
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#img-toTop {
+    width: 30px;
+    height: 30px;
+}
+
+#barraBusqueda {
+    width: 80%;
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.btn-accion {
+    width: 70px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#contFiltros,
+legend {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.filtros {
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.btn-filtro {
+    align-self: center;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contProducto {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.contInfoCompra {
+    display: flex;
+    column-gap: 5px;
+}
+
+.cantItem {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: block;
+}
+
+.subtSeccion {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+}
+
+.imgProd {
+    width: 15rem;
+    height: 15rem;
+}
+
+.nombreProd,
+.precioProd {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.btn-comprar {
+    /* background-color: rgb(82, 82, 82); */
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+    width: 70px;
+    height: 30px;
+}
+
+.mensajeCarritoVacio {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.btn-comprar:disabled {
+    background-color: white;
+    color: black;
+}
+
+#btn-finalizar:disabled {
+    background-color: white;
+    color: black;
+}
+
+.btn-comprar:hover:enabled,
+.btn-accion:hover:enabled {
+    background-color: #525252;
+    color: white;
+}
+
+.contMensajeCompra {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mensajeCompra {
+    font-size: 2rem;
+    width: 80%;
+}
+
+#mainFinal {
+    display: flex;
+    flex-direction: column;
+}
+
+.TotalResumen {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    align-self: center;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 5px;
+}
+
+#secResumenCompra {
+    text-align: center;
+    margin: auto;
+}
+
+.resumenCarrito {
+    font-size: 1.3rem;
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    column-gap: 5%;
+    width: 100%;
+
+}
+
+.nombreProdResumen {
+    width: 40%;
+}
+
+.cantProdResumen,
+.precioProdResumen {
+    width: 50px;
+}
+
+#formCompra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#confirmarCompra {
+    font-size: 1.2rem;
+}
+
+.imgProdResumen {
+    width: 50px;
+    height: 50px;
+}
+
+#TituloformCompra {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+.inputDatos {
+    width: 150px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.toastAgregar{
+    font-size: 1rem;
+    background: black;
+    width: 150px;
+    text-align: center;
+}
+
+/******* FOOTER ********/
+
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    color: rgb(221, 218, 218);
+    line-height: 10px;
+
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+#Container_Redes a {
+    margin: 0 5px;
+}
+
+footer a {
+    color: rgb(221, 218, 218);
+}
+
+footer a:hover {
+    color: sandybrown;
+}
+
+#footContacto,
+#footRedes {
+    border-bottom: 1px solid white;
+}
+
+footer div {
+    padding: 10px 0px;
+}
+
+.logosRedes {
+    height: 25px;
+    width: 25px;
+}
+
+/******* MEDIA QUERIES *******/
+
+@media only screen and (min-width: 768px) {
+
+    .SecMain {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .contProducto {
+        width: 350px;
+    }
+
+    #contFiltros article {
+        display: flex;
+        flex-direction: row;
+        column-gap: 200px;
+    }
+
+    #contSocial {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #footContacto,
+    #footRedes {
+        border-bottom: none;
+    }
+
+    .TotalResumen {
+        font-size: 2rem;
+    }
+
+    .resumenCarrito {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 1.8rem;
+    }
+
+    #footerCompraFinal {
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    .subtSeccion {
+        font-size: 2.5rem;
+    }
+
+    #TituloformCompra {
+        margin-top: 50px;
+        width: 40%;
+        font-size: 2rem;
+    }
+
+    #formCompra {
+        font-size: 1.8rem;
+    }
+
+    .inputDatos {
+        width: 35%;
+        padding-left: 8px;
+    }
+
+    #confirmarCompra {
+        font-size: 1.5rem;
+    }
+
+    .mensajeCompra {
+        font-size: 2.8rem;
+        width: 100%;
+    }
+
+    #secResumenCompra {
+        width: 90%;
+    }
+
+    .nombreProdResumen {
+        width: 40%;
+    }
+
+    .cantProdResumen,
+    .precioProdResumen {
+        width: 80px;
+    }
+
+    .toastAgregar{
+        font-size: 1.4rem;
+        width: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    body {
+        background-image: url("../img/49754-gamer.jpg");
+        background-color: white;
+    }
+
+    header {
+        height: 90px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #contHeader {
+        width: 1300px;
+        justify-content: space-between;
+    }
+
+    #contMarca {
+        display: flex;
+        align-items: center;
+    }
+
+    #contenedorCarrito {
+        margin-right: 20px;
+    }
+
+    #contCarrito {
+        margin-right: 20px;
+    }
+
+    #wrapper {
+        max-width: 1300px;
+        margin: auto;
+        grid-template-areas:
+            "aside main"
+            "footer footer";
+        grid-template-rows: auto auto;
+        grid-template-columns: 25% 75%;
+    }
+
+
+    .SecMain {
+        flex-direction: column;
+    }
+
+    .contProducto {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #contFiltros article {
+        display: inline-block;
+    }
+
+    .contInfoProd {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    aside {
+        margin-top: 20px;
+    }
+
+    .contMensajeCompra {
+        justify-content: space-evenly;
+    }
+
+    #wrapperCompraFinal {
+        max-width: 1300px;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 'subtitulo'
+            'mainFinal';
+        background-color: white;
+        grid-template-rows: 80px 1fr;
+    }
+
+    #mainFinal {
+        grid-area: mainFinal;
+    }
+
+    .subtSeccion {
+        grid-area: subtitulo;
+    }
+
+    #secResumenCompra {
+        width: 90%;
+    }
+
+    .resumenCarrito {
+        justify-content: space-evenly;
+    }
+
+    .nombreProdResumen {
+        width: 30%;
+    }
+
+    .cantProdResumen,
+    .precioProdResumen {
+        width: 80px;
+    }
+
+}

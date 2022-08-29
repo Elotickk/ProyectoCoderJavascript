@@ -1,0 +1,205 @@
+[
+    {
+        "idprod": 1000,
+        "nombre": "PROCESADOR INTEL CORE I3 12100",
+        "categoria": "CPU_Intel",
+        "precio": 25000,
+        "imagen": "./img/Productos/Procesadores/i3.jpg"
+    },
+    {
+        "idprod": 1001,
+        "nombre": "PROCESADOR INTEL CORE I5 12400",
+        "categoria": "CPU_Intel",
+        "precio": 38000,
+        "imagen": "./img/Productos/Procesadores/i5.jpg"
+    },
+    {
+        "idprod": 1002,
+        "nombre": "PROCESADOR INTEL CORE I7 12700K",
+        "categoria": "CPU_Intel",
+        "precio": 70000,
+        "imagen": "./img/Productos/Procesadores/i7.jpg"
+    },
+    {
+        "idprod": 1003,
+        "nombre": "PROCESADOR INTEL CORE I9 12900K",
+        "categoria": "CPU_Intel",
+        "precio": 100000,
+        "imagen": "./img/Productos/Procesadores/i9.jpg"
+    },
+    {
+        "idprod": 2000,
+        "nombre": "PROCESADOR AMD RYZEN 5 5600",
+        "categoria": "CPU_AMD",
+        "precio": 32000,
+        "imagen": "./img/Productos/Procesadores/Ryzen5600.jpg"
+    },
+    {
+        "idprod": 2001,
+        "nombre": "PROCESADOR AMD RYZEN 7 5800X",
+        "categoria": "CPU_AMD",
+        "precio": 55000,
+        "imagen": "./img/Productos/Procesadores/Ryzen5800x.jpg"
+    },
+    {
+        "idprod": 2002,
+        "nombre": "PROCESADOR AMD RYZEN 7 5800X3D",
+        "categoria": "CPU_AMD",
+        "precio": 68000,
+        "imagen": "./img/Productos/Procesadores/Ryzen5800x3d.jpg"
+    },
+    {
+        "idprod": 2003,
+        "nombre": "PROCESADOR AMD RYZEN 9 5900X",
+        "categoria": "CPU_AMD",
+        "precio": 90000,
+        "imagen": "./img/Productos/Procesadores/Ryzen5900x.jpg"
+    },
+    {
+        "idprod": 2004,
+        "nombre": "PROCESADOR AMD RYZEN 9 5950X",
+        "categoria": "CPU_AMD",
+        "precio": 90000,
+        "imagen": "./img/Productos/Procesadores/Ryzen5950x.jpg"
+    },
+    {
+        "idprod": 3000,
+        "nombre": "PLACA DE VIDEO NVIDIA MSI RTX 3070TI",
+        "categoria": "GPU_Nvidia",
+        "precio": 150000,
+        "imagen": "./img/Productos/Placas/GPU_Nvidia_MSI_RTX3070TI.jpg"
+    },
+    {
+        "idprod": 3001,
+        "nombre": "PLACA DE VIDEO NVIDIA ZOTAC RTX 3070TI",
+        "categoria": "GPU_Nvidia",
+        "precio": 150000,
+        "imagen": "./img/Productos/Placas/GPU_Nvidia_ZOTAC_RTX3070TI.jpg"
+    },
+    {
+        "idprod": 3002,
+        "nombre": "PLACA DE VIDEO NVIDIA ASUS RTX 3080TI",
+        "categoria": "GPU_Nvidia",
+        "precio": 250000,
+        "imagen": "./img/Productos/Placas/GPU_Nvidia_MSI_RTX3080ti.jpg"
+    },
+    {
+        "idprod": 3003,
+        "nombre": "PLACA DE VIDEO NVIDIA MSI RTX 3080TI",
+        "categoria": "GPU_Nvidia",
+        "precio": 250000,
+        "imagen": "./img/Productos/Placas/GPU_Nvidia_ASUS_RTX3080TI.jpg"
+    },
+    {
+        "idprod": 3004,
+        "nombre": "PLACA DE VIDEO NVIDIA ASUS RTX 3090",
+        "categoria": "GPU_Nvidia",
+        "precio": 400000,
+        "imagen": "./img/Productos/Placas/GPU_Nvidia_ASUS_RTX3090.jpg"
+    },
+    {
+        "idprod": 3005,
+        "nombre": "PLACA DE VIDEO NVIDIA MSI RTX 3090",
+        "categoria": "GPU_Nvidia",
+        "precio": 400000,
+        "imagen": "./img/Productos/Placas/GPU_Nvidia_MSI_RTX3090.jpg"
+    },
+    {
+        "idprod": 4000,
+        "nombre": "PLACA DE VIDEO AMD ASROCK RX6700XT",
+        "categoria": "GPU_AMD",
+        "precio": 150000,
+        "imagen": "./img/Productos/Placas/GPU_AMD_Asrock_RX6700XT.jpg"
+    },
+    {
+        "idprod": 4001,
+        "nombre": "PLACA DE VIDEO AMD ASUS RX6800XT",
+        "categoria": "GPU_AMD",
+        "precio": 200000,
+        "imagen": "./img/Productos/Placas/GPU_AMD_ASUS_RX6800XT.jpg"
+    },
+    {
+        "idprod": 4002,
+        "nombre": "PLACA DE VIDEO AMD POWERCOLOR RX6900XT",
+        "categoria": "GPU_AMD",
+        "precio": 400000,
+        "imagen": "./img/Productos/Placas/GPU_AMD_Powecolor_RX6900XT.jpg"
+    },
+    {
+        "idprod": 4003,
+        "nombre": "PLACA DE VIDEO AMD XFX RX6900XT",
+        "categoria": "GPU_AMD",
+        "precio": 400000,
+        "imagen": "./img/Productos/Placas/GPU_AMD_XFX_RX6900XT.jpg"
+    },
+    {
+        "idprod": 5000,
+        "nombre": "MOTHERBOARD INTEL GIGABYTE AORUS Z690",
+        "categoria": "Mother_Intel",
+        "precio": 100000,
+        "imagen": "./img/Productos/Motherboard/Mother_Intel_GigaZ690Aorus.jpg"
+    },
+    {
+        "idprod": 5001,
+        "nombre": "MOTHERBOARD INTEL MSI UNIFY Z690",
+        "categoria": "Mother_Intel",
+        "precio": 110000,
+        "imagen": "./img/Productos/Motherboard/Mother_Intel_MSIZ690Unify.jpg"
+    },
+    {
+        "idprod": 5002,
+        "nombre": "MOTHERBOARD INTEL ASUS ROG Z690",
+        "categoria": "Mother_Intel",
+        "precio": 130000,
+        "imagen": "./img/Productos/Motherboard/Mother_Intel_RogMaxZ690.jpg"
+    },
+    {
+        "idprod": 6000,
+        "nombre": "MOTHERBOARD AMD MSI X570",
+        "categoria": "Mother_AMD",
+        "precio": 100000,
+        "imagen": "./img/Productos/Motherboard/Mother_AMD_MSIX570SEdge.jpg"
+    },
+    {
+        "idprod": 6001,
+        "nombre": "MOTHERBOARD AMD GIGABYTE AORUS X570",
+        "categoria": "Mother_AMD",
+        "precio": 110000,
+        "imagen": "./img/Productos/Motherboard/Mother_AMD_GigaX570SAorus.jpg"
+    },
+    {
+        "idprod": 6002,
+        "nombre": "MOTHERBOARD AMD ASUS CROSSHAIR X570",
+        "categoria": "Mother_AMD",
+        "precio": 130000,
+        "imagen": "./img/Productos/Motherboard/Mother_AMD_AsusX570CrosshairVIII.jpg"
+    },
+    {
+        "idprod": 7000,
+        "nombre": "MEMORIA RAM DDR4 TEAM 4GB 2400MHZ",
+        "categoria": "RAM",
+        "precio": 5000,
+        "imagen": "./img/Productos/RAM/RAMDDR4_Team4GB.jpg"
+    },
+    {
+        "idprod": 7001,
+        "nombre": "MEMORIA RAM DDR4 ADATA 16GB 3200MHZ",
+        "categoria": "RAM",
+        "precio": 12000,
+        "imagen": "./img/Productos/RAM/RAMDDR4_ADATA16GB3200.jpg"
+    },
+    {
+        "idprod": 7002,
+        "nombre": "MEMORIA RAM DDR4 ADATA 16GB 3600MHZ",
+        "categoria": "RAM",
+        "precio": 13500,
+        "imagen": "./img/Productos/RAM/RAMDDR4_ADATA16GB3600.jpg"
+    },
+    {
+        "idprod": 7003,
+        "nombre": "MEMORIA RAM DDR5 TEAM 32GB 5600MHZ",
+        "categoria": "RAM",
+        "precio": 13500,
+        "imagen": "./img/Productos/RAM/RAMDDR5_Team32GB.jpg"
+    }
+]
