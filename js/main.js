@@ -33,7 +33,7 @@ function mostrarProductos(prd) {
         // Creo un botón de comprar asignandole un tag imaginario, que contiene el id del producto seleccionado
         const btnComprar = document.createElement('button');
         btnComprar.classList.add('btn-comprar');
-        btnComprar.textContent = ('Comprar');
+        btnComprar.textContent = ('Agregar al carrito');
         btnComprar.setAttribute('prodID', prod.idprod);
         contInfoCompra.appendChild(btnComprar);
         btnComprar.addEventListener('click', agregarAlCarrito);
