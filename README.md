@@ -51,6 +51,3 @@ npm start
 
 - Linkedin: [Gonzalo Romero](https://www.linkedin.com/in/gonzaloromero-/)
 - Email: gonzalorom2001@gmail.com
-
-  
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/Elotickk/ProyectoCoderJavascript/master/./img/banner.png)
