@@ -2,7 +2,7 @@
 
 Proyecto para el curso de Javascript en Coderhouse - Simulador de Compra con Carrito
 
-<h1 align="center">Bienvenidos a CTA Gaming <h1> 🚀
+<h1 align="center">Bienvenidos a CTA Gaming <h1>
 
 ## ¿De que se trata mi proyecto? 🚀
   
@@ -42,7 +42,7 @@ npm start
 
 ## Deploy 🌐
 
-<a href="https://ctagaming.netlify.app" target="_blank" rel="noreferrer"> <img src="https://i.pinimg.com/564x/95/e1/78/95e178f5b1dc1a2327595784442a866c.jpg" alt="vercel" width="140" height="40"/> 
+<a href="https://ctagaming.netlify.app" target="_blank" rel="noreferrer"> <img src="https://i.pinimg.com/564x/95/e1/78/95e178f5b1dc1a2327595784442a866c.jpg" alt="vercel" width="140" height="100"/> 
 </a>
 
 ## Contacto 👋
