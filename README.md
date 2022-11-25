@@ -16,7 +16,8 @@ CTA GAMING es una tienda electronica ficticia situado en la provincia de San Fer
   
 ## Base de datos 👩‍
 
-![My Skills](https://png.pngtree.com/png-vector/20190330/ourlarge/pngtree-json-file-document-icon-png-image_897986.jpg)
+<a href="#" target="_blank" rel="noreferrer"> <img src="https://png.pngtree.com/png-vector/20190330/ourlarge/pngtree-json-file-document-icon-png-image_897986.jpg" alt="json" width="140" height="140"/> 
+</a>
     
 ## Pasos para iniciar el proyecto 🛠️
 
