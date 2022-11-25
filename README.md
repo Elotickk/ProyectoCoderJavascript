@@ -47,7 +47,7 @@ npm start
 
 ## Deploy 🌐
 
-<a href="https://ctagaming.netlify.app" target="_blank" rel="noreferrer"> <img src="https://i.pinimg.com/564x/95/e1/78/95e178f5b1dc1a2327595784442a866c.jpg" alt="vercel" width="140" height="140"/> 
+<a href="https://jmrmarroquineria.netlify.app" target="_blank" rel="noreferrer"> <img src="https://i.pinimg.com/564x/95/e1/78/95e178f5b1dc1a2327595784442a866c.jpg" alt="netlify" width="140" height="140"/> 
 </a>
 
 ## Contacto 👋
